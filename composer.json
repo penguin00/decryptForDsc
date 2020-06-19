@@ -1,0 +1,22 @@
+{
+    "name": "decrypt-for-dsc/decrypt-for-dsc",
+    "description": "解密包",
+    "authors": [
+        {
+            "name": "xuzhicheng",
+            "email": "xuzc01@beantechs.cn"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Kernel\\": "src/Kernel/"
+        },
+        "files": [
+            "src/Kernel/Support/helpers.php"
+        ]
+    },
+    "minimum-stability": "stable"
+}
