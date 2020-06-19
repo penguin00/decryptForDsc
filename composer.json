@@ -18,5 +18,6 @@
             "src/Kernel/Support/helpers.php"
         ]
     },
+    "license": "MIT",
     "minimum-stability": "stable"
 }
